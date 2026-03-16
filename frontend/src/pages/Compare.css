@@ -1,0 +1,152 @@
+.compare-page {
+    padding-top: 48px;
+}
+
+.compare-header {
+    margin-bottom: 36px;
+}
+
+.compare-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.compare-sub {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.compare-forms {
+    display: flex;
+    gap: 0;
+    align-items: start;
+    margin-bottom: 24px;
+}
+
+.compare-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.compare-form-label {
+    font-family: var(--font-head);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.form-row-2 {
+    display: flex;
+    gap: 12px;
+}
+
+.form-row-2 .form-field {
+    flex: 1;
+}
+
+.toggle-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.toggle-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.toggle-btn {
+    padding: 6px 14px;
+    border-radius: var(--radius);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--bg3);
+    color: var(--muted);
+    transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.toggle-btn.on {
+    background: rgba(0, 229, 255, 0.1);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.compare-vs {
+    font-family: var(--font-head);
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--muted);
+    padding: 0 20px;
+    align-self: center;
+}
+
+.compare-actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.compare-error {
+    color: var(--danger);
+    font-size: 13px;
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.winner-banner {
+    text-align: center;
+    font-family: var(--font-head);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px;
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.compare-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+@media (max-width: 700px) {
+    .compare-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .compare-forms {
+        flex-direction: column;
+    }
+
+    .compare-vs {
+        padding: 12px 0;
+        align-self: center;
+    }
+}
+
+.winner-col .pred-card {
+    border-color: var(--success);
+    box-shadow: 0 0 24px rgba(16, 185, 129, 0.15);
+}

@@ -1,0 +1,137 @@
+.predict-page {
+    padding-top: 48px;
+}
+
+.predict-header {
+    margin-bottom: 36px;
+}
+
+.predict-header h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.predict-sub {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.predict-layout {
+    display: grid;
+    grid-template-columns: 1fr 380px;
+    gap: 24px;
+    align-items: start;
+}
+
+@media (max-width: 860px) {
+    .predict-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ── Form ── */
+.predict-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-section-title {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+}
+
+.form-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.form-field {
+    flex: 1;
+    min-width: 140px;
+}
+
+/* ── Toggles ── */
+.toggle-row {
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.toggle-btn {
+    padding: 8px 16px;
+    border-radius: var(--radius);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: var(--bg3);
+    color: var(--muted);
+    transition: all 0.2s;
+}
+
+.toggle-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.toggle-btn.on {
+    background: rgba(0, 229, 255, 0.1);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+/* ── Actions ── */
+.form-actions {
+    display: flex;
+    gap: 12px;
+    padding-top: 4px;
+}
+
+.form-error {
+    color: var(--danger);
+    font-size: 13px;
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    border-radius: var(--radius);
+    padding: 10px 14px;
+}
+
+/* ── Result placeholder ── */
+.result-placeholder {
+    text-align: center;
+    padding: 48px 28px;
+    color: var(--muted);
+}
+
+.placeholder-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.result-placeholder p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.placeholder-tips {
+    list-style: none;
+    font-size: 12px;
+    color: var(--muted);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.placeholder-tips li::before {
+    content: "✓  ";
+    color: var(--success);
+}
