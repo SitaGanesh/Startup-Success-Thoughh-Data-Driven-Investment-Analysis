@@ -19,12 +19,12 @@ This project builds a comprehensive end-to-end Machine Learning pipeline integra
 ---
 
 ## 🌐 Veritas Frontend User Interface
-
-![Predict Success Page](architecture-images/predict-success-page.png)
-![Market Research Page](architecture-images/market-research.png)
-![Document Analysis Page](architecture-images/document-analysis-page.png)
-![Deep Startup Analysis Page](architecture-images/deep-startup-analysis-page.png)
-![Landing Page](architecture-images/landing-page.png)
+![Nova1](https://github.com/user-attachments/assets/a0590820-decc-488c-9810-de3152fe59f5)
+![Predict Success Page](https://github.com/user-attachments/assets/18aeb492-2d75-4cee-a652-2e0477bbfe08)
+![Market Research Page](https://github.com/user-attachments/assets/dd8462f4-9c57-4ba8-bcb8-d40fae498a56)
+![Nova6](https://github.com/user-attachments/assets/c21948e9-c6e0-42ac-82a7-61d6ade8bd83)
+![Nova7](https://github.com/user-attachments/assets/90ffbdcf-a8ca-4533-95fa-5dd44b36945a)
+![Nova3](https://github.com/user-attachments/assets/fbb5b7e7-4356-4582-85cc-cc47bd4cf11b)
 
 > **Experience Veritas**: A modern, intuitive interface that makes complex startup analysis simple and actionable.
 
@@ -34,7 +34,9 @@ This project builds a comprehensive end-to-end Machine Learning pipeline integra
 
 ### **High-Level Data Flow**
 
-![High-Level Architecture Diagram](architecture-images/high-level-architecture.png)
+
+<img width="680" height="520" alt="startupOracle_system_overview (1)" src="https://github.com/user-attachments/assets/55219805-2359-496f-b531-423134cf1aff" />
+
 
 ### **Architecture Components**
 
